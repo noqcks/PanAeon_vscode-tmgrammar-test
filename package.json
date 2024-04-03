@@ -34,7 +34,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.2.11",
-    "@types/diff": "^4.0.2",
+    "@types/diff": "^5.0.9",
     "@types/glob": "^7.1.1",
     "@types/mocha": "^10.0.1",
     "@types/node": "^18.11.9",
@@ -52,7 +52,7 @@
     "bottleneck": "^2.19.5",
     "chalk": "^2.4.2",
     "commander": "^9.2.0",
-    "diff": "^4.0.2",
+    "diff": "^5.2.0",
     "glob": "^7.1.6",
     "vscode-oniguruma": "^1.5.1",
     "vscode-textmate": "^7.0.1"
