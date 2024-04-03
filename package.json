@@ -35,7 +35,7 @@
   "devDependencies": {
     "@types/chai": "^4.2.11",
     "@types/diff": "^4.0.2",
-    "@types/glob": "^7.1.1",
+    "@types/glob": "^8.1.0",
     "@types/mocha": "^10.0.1",
     "@types/node": "^18.11.9",
     "@types/xml2js": "^0.4.11",
@@ -53,7 +53,7 @@
     "chalk": "^2.4.2",
     "commander": "^9.2.0",
     "diff": "^4.0.2",
-    "glob": "^7.1.6",
+    "glob": "^10.3.12",
     "vscode-oniguruma": "^1.5.1",
     "vscode-textmate": "^7.0.1"
   }
