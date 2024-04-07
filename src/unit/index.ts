@@ -12,7 +12,7 @@ export async function runGrammarTestCase(registry: tm.Registry, testCase: Gramma
 
     const assertions = toMap((x) => x.sourceLineNumber, testCase.assertions)
 
-    let ruleStack: tm.IRuleStack | undefined
+    let ruleStack: tm.StackElement | undefined
 
     let failures: TestFailure[] = []
 
