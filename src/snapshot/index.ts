@@ -10,7 +10,7 @@ export async function getVSCodeTokens(registry: tm.Registry, scope: string, sour
       throw new Error(`Could not load scope ${scope}`)
     }
 
-    let ruleStack: tm.StackElement | undefined
+    let ruleStack: tm.IStackElement | undefined
 
     return source.split(/\r\n|\n/).map((line: string, n: number) => {
       var { tokens, ruleStack: ruleStack1 } = grammar.tokenizeLine(line, ruleStack)
